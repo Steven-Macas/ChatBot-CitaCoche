@@ -103,16 +103,6 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    /*private void sendToDialogFlow() {
-        String text = etDialogFlow.getText().toString();
-        etDialogFlow.setText("");
-        if (!text.isEmpty()){
-            sendMessageToBot(text);
-        } else {
-            Toast.makeText(this, "Introduce algo, ¿no?", Toast.LENGTH_SHORT).show();
-        }
-    }*/
-
     private boolean setupDialogFlowClient() {
         boolean value = false;
         try {
