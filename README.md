@@ -41,7 +41,7 @@ The conversation runs in Spanish (`es-ES`).
 
 1. Create an agent in [Dialogflow ES](https://dialogflow.cloud.google.com/) with your intents and answers.
 2. In Google Cloud, create a service account with the **Dialogflow API Client** role and download a JSON key.
-3. Save the key as `app/src/main/res/raw/client.json`. **Keep this file out of version control** (add it to `.gitignore`).
+3. Save the key as `app/src/main/res/raw/client.json`. The key is not included in this repository and that path is listed in `.gitignore`, so it is never committed.
 4. Open the project in **Android Studio**, sync Gradle and run the app on an emulator or device.
 
 ---

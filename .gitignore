@@ -1,0 +1,8 @@
+# Clave de la cuenta de servicio de Google Cloud (Dialogflow): nunca se sube al repositorio
+app/src/main/res/raw/client.json
+
+# Archivos locales de Android Studio / Gradle
+local.properties
+.gradle/
+.idea/
+build/
